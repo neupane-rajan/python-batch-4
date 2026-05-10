@@ -15,7 +15,7 @@ Clone the repository to access lectures, exercises, and reference materials.
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/neupane-rajan/python-batch-4
    ```
 2. Browse the notes and exercises.
 3. Study and practice to improve your Python skills.
