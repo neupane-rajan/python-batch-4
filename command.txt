@@ -1,0 +1,9 @@
+clear = "clear everything from terminal"
+"python file_name.py" = "run python file"
+ls = "list out all files and folder in current directory"
+"cd folder_name" = "change the  directory(folder)"
+"cd .."= "switch back to previous directory "
+"pwd"="present working directory"
+"touch file_name.file_extension"= "create a new file" //this only works on linux
+"echo file_name.extension" ="create a new file"
+"mkdir folder_name"="create a new folder"

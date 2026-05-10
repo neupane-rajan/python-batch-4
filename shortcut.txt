@@ -1,0 +1,15 @@
+Ctrl + ~ = "open the terminal or closed if already opened",
+ctrl + shift + ~ = open new terminal window
+ctrl + pagedown(pgdown)= "switch btw two terminal"
+ctrl + B = "hide or show explorer"
+ctrl + shift + e ="show explorer"
+this is the python programming session
+ctrl + l = "select the current line"
+ctrl + /
+
+//chrome shortcut
+ctrl+t = "open new tab in chrome"
+ctrl+1,2,3,4...n="switch to specific tab"
+"ctrl + l"= "navigate or switch cursor to search tab"
+"ctrl + w" =" close the current tab"
+"f2"="rename any folder or file"
