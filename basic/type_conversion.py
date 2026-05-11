@@ -16,7 +16,7 @@ new_str = "123"
 converted_str = int(new_str)
 # print(type(converted_str))
 
-# note: only integer number  type string can be converted into integer
+# note: only integer number  type(combination  of number from 0 to 9) string can be converted into integer
 # my_name = "rajan"
 # new_int = int(my_name)
 # print(new_int)
