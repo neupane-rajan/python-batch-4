@@ -1,4 +1,5 @@
-string_var = "hi this is ramit"
-x = bool(string_var)
-print(x)
-print(type(x))
+name=input("Enter your name:")
+school=input("Enter your school name:")
+age=input("Enter your age:")
+adress=input("Enter your adress:")
+print(f"My name is {name}. I am {age} years old and I study at {school} located in {adress}.")
