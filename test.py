@@ -1,5 +1,1 @@
-name=input("Enter your name:")
-school=input("Enter your school name:")
-age=input("Enter your age:")
-adress=input("Enter your adress:")
-print(f"My name is {name}. I am {age} years old and I study at {school} located in {adress}.")
+#  this is a test folder

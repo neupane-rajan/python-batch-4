@@ -7,3 +7,5 @@ ls = "list out all files and folder in current directory"
 "touch file_name.file_extension"= "create a new file" //this only works on linux
 "echo file_name.extension" ="create a new file"
 "mkdir folder_name"="create a new folder"
+ctrl + shift + c = copy from the terminal
+ctrl + shift + v= past into the terminal
