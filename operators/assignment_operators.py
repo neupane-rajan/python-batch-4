@@ -32,6 +32,7 @@ b = c
 # jati variable xa teti nai value dina parene hunxa
 # a,b,c,d,e = 1,2,3,4
 # print(f'a={a}, b = {b}, c = {c}, d={d}')
+a,b,c = 1,2,3
 
 
 # giving same value to mutliple variables
@@ -45,7 +46,7 @@ a=b= c= d =1
 
 # addition
 # x = 1
-# # x = x+3
+# x = x+3
 # x += 3
 
 # x = y+x
