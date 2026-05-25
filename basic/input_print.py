@@ -1,4 +1,4 @@
-# input() when we use input for taking data from user then by default they have string data type .if want that data in integer then we can use int() method for converting it into integer
+# input() when we use input for taking data from user then by default they have string data type .if you want that data in integer then we can use int() method for converting it into integer
 # f-string: f-string is a way of formatting string in python . It is a new way to formate string and it is more redable and concise way to formate a string.
 # we can use f-string by adding f before the quote ("") and using curly braces{ } to insert variables into string
 

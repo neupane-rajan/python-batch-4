@@ -1,5 +1,4 @@
-a = 8
-b = 4
+age = int(input("enter your age: "))
 
-floor_div = a // b
-print(floor_div)
+if age <= 13 and age >= 1:
+    print("you are gen alpha")
