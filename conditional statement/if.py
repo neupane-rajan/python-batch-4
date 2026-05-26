@@ -15,3 +15,9 @@ if age >= 14:
     print("you are genz")
 
 
+#  check if person is eligible to vote or not
+
+age = int(input("enter your age: "))
+
+if age>=18:
+    print("you can vote: ")
