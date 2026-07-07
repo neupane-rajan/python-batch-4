@@ -44,3 +44,17 @@ for i in range(5):
         print("*", end=" ")
 
     print()
+for i in range(4):
+    for space in range(4, i, -1):
+        print(" ", end=" ")
+
+    for start in range(i * 2 + 1):
+        print("*", end=" ")
+    print()
+
+for i in range(5):
+    for space in range(i):
+        print(" ", end=" ")
+    for start in range(9 - i * 2):
+        print("*", end=" ")
+    print()
