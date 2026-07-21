@@ -1,7 +1,14 @@
-for i in range(4):
-    for j in  range(5):
-        if (i+j)%2 ==0:
-            print(1, end=" ")
-        else:
-            print(0,end=" ")
-    print()
+num = int(input("enter any number: "))
+
+reverse = 0
+temp = num
+while num > 0:
+    digit = num % 10
+    reverse = reverse * 10 + digit
+    num = num // 10
+print(num)
+print(reverse)
+if reverse == temp:
+    print("number is a palindrome")
+else:
+    print("number is not a palindrome")
