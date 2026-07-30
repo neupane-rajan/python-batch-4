@@ -38,13 +38,14 @@ def empty_function():
     pass
 
 
-name = input("What is your name?: ")
-language = input("which language you want to study: ")
+def star():
+    print("*****")
+
+star()
+star()
+print("hello")
 
 
-def greeting(name,language):
-    print(f"hello {name} , congratulation for taking {language} course")
+star()
 
 
-
-greeting(name="rohit",language="hacking")
