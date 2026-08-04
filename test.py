@@ -1,9 +1,3 @@
-x = 12
-
-
-def test():
-
-    print(x)
-
-test()
-print(x)
+num = (1, 2, 3, 4)
+a,b,c,d=  num
+print(a)
