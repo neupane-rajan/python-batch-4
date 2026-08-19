@@ -25,12 +25,13 @@ def calculator(a, b):
 def check_age(age):
 
     if age < 18:
+
         return "minor"
 
     return "adult"
 
 
-print(check_age(17))
+# print(check_age(17))
 
 
 # create a function that returns :
@@ -39,3 +40,25 @@ print(check_age(17))
 # area of rectange
 # largest among 3 number
 # even or odd
+
+
+# variable scope 
+# global variable
+# local variable
+
+
+name = "Niijo"
+
+def show():
+    print(f"we are {name}")
+
+# show()
+
+def test():
+    age = 18
+    return age
+
+test()
+print(test())
+
+
