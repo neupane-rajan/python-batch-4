@@ -10,7 +10,7 @@ def process(func):
     return func()
 
 
-print(process(greet))
+# print(process(greet))
 
 
 """
@@ -34,9 +34,32 @@ numbers = [1, 2, 3, 4, 5]
 # using lambda function
 
 result = map(lambda x: x**2, numbers)
-print(list(result))
+# print(list(result))
 
-# convert name to uppercase
+# convert names to uppercase
 # convert strings to integer
 # convert celsius to fahrenheit
 # calculate squall of all given number(list)
+
+names = ["ram", "shyam", "hari", "sita"]
+
+up_result = map(lambda name: name.upper(), names)
+
+# print(list(up_result))
+
+
+# filter()
+# filter(function, iterable)
+numbers = [1, 2, 3, 4, 5, 6, 7]
+
+
+# with filter
+result = filter(lambda x: x % 2 == 0, numbers)
+
+print(list(result))
+
+list[1, 2, 3, 4, 5, 6, 7, 8]
+# even numbers
+#odd numbers
+# passed students
+# positive numbers
