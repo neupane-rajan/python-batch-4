@@ -56,10 +56,34 @@ numbers = [1, 2, 3, 4, 5, 6, 7]
 # with filter
 result = filter(lambda x: x % 2 == 0, numbers)
 
-print(list(result))
+# print(list(result))
 
 list[1, 2, 3, 4, 5, 6, 7, 8]
 # even numbers
-#odd numbers
+# odd numbers
 # passed students
 # positive numbers
+
+# reduce
+
+
+from functools import reduce
+
+numbers = [1, 2, 3, 4, 5]
+# here below a is function as result of a,b and b is next element(item)
+result = reduce(lambda a, b: a + b, numbers)
+
+print(result)
+from functools import reduce
+
+prices = []
+
+# initial  value is given when we have empty list,dict , set  .... etc
+total_purchase = reduce(lambda total, price: total + price, prices, 0)
+
+print(total_purchase)
+
+
+# map-> transform
+# filter-> select(selective)
+# reduce -> combine ->single value(result)
