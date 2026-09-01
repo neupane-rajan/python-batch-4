@@ -1,4 +1,5 @@
 # list: A list is a container that allows ut to store multiple values in one variable.List is denoted by "[]"
+# list are mutable
 # user1 = "Uttam"
 # user2 = "rohit"
 # user3 = "rejina"
@@ -27,7 +28,7 @@ users = ["Uttam", "Rohit", "Rejina", "Ramit"]  # string list
 # print(users)
 # print(type(users))
 
-users = ["Uttam", "Rohit", "Rejina", "..",".............................","Ramit"]
+users = ["Uttam", "Rohit", "Rejina", "..", ".............................", "Ramit"]
 
 # print(users[1])
 # print(users[3])
@@ -36,21 +37,28 @@ users = ["Uttam", "Rohit", "Rejina", "..",".............................","Ramit
 # list slicing
 # list_name[start:end]
 # note: end is not included.
-users = ["Uttam", "Rohit", "Rejina", "Ramit","random"]
+users = ["Uttam", "Rohit", "Rejina", "Ramit", "random"]
 
 new_list = users[0:2]
 # print(new_list)
 # print(users[:]) #slice whole list
-print(users[0:5:2])
+# print(users[0:5:2])
 # print(users[::-1])
 
 
 # practice 1
 
 
-loans = [1000,10000,354300,97234,7037490327]
+loans = [1000, 10000, 354300, 97234, 7037490327]
 # first loan
 # last  loan
 # second loan
-# first three loans 
+# first three loans
 # last two loans
+
+# Modifying lists
+users = ["Uttam", "Rohit", "Rejina", "Ramit", "random"]
+
+users[1] = "Ram"
+print(users)
+
