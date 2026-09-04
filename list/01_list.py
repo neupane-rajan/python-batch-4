@@ -7,6 +7,10 @@
 # list allows us to store mutliple values with different data types
 # in list python uses zero-based  indexing ( index number starts from 0)
 
+# creating an empty list
+
+empty_list = []
+empty_list1 = list()
 
 random = [
     "abc",  # --> 0 index
@@ -61,4 +65,3 @@ users = ["Uttam", "Rohit", "Rejina", "Ramit", "random"]
 
 users[1] = "Ram"
 print(users)
-

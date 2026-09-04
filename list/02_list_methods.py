@@ -8,6 +8,10 @@ print(users)
 users.append("jagdish")
 # print(users)
 
+# extend()
+users = ["Uttam", "Rohit", "Rejina", "Ramit", "random"]
+users.extend("xyz")
+print(users)
 
 # insert()
 # Insert value at a particular index or position.
