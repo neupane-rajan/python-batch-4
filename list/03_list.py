@@ -28,4 +28,20 @@ users = ["rohit", "uttam", "ramit", "rejina"]
 
 # len()
 users = ["rohit", "uttam", "ramit", "rejina"]
-print(len(users))
+# print(len(users))
+
+# list unpacing
+loan = [1, "rohit", 500]
+# loan_id = loan[0]
+# user = loan[1]
+# loan_amount = loan[2]
+
+loan_id, user, loan_amount = loan
+
+# print(user)
+
+# Extended unpacking
+numbers = [1, 2, 3, 4, 5, 6]
+first, *middle, last = numbers
+print(f"first: {first}\nmiddle: {middle}\nlast:{last}")
+
