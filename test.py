@@ -1,6 +1,6 @@
-num = [1,2,3,4,5]
-num.append("ram")
-print(num)
+data = {10, 20, "id", "password",True,None}
+print(data)
 
-num.extend("ram")
-print(num)
+numbers = hash("hi")
+print(numbers)
+

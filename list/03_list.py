@@ -43,5 +43,21 @@ loan_id, user, loan_amount = loan
 # Extended unpacking
 numbers = [1, 2, 3, 4, 5, 6]
 first, *middle, last = numbers
-print(f"first: {first}\nmiddle: {middle}\nlast:{last}")
+# print(f"first: {first}\nmiddle: {middle}\nlast:{last}")
 
+# Nested Lists
+
+transactions = [[1000, "deposit"], [500, "withdraw"], [2000, "Deposit"]]
+
+status = transactions[2][1]
+price = transactions[1][1]
+print(price)
+
+# using dictonary inside list
+transactions = [
+    {"id": 1, "type": "deposit", "amount": 10000},
+    {"id": 2, "type": "withdraw", "amount": 30000},
+]
+print(transactions[0])
+# for transaction in transactions:
+#     print(transaction["type"])
