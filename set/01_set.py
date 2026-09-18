@@ -35,9 +35,12 @@ messages.add("good night")
 # accessing sets value
 
 messages = {"hello", "hi", "goodmorning"}
-for message in messages:
-    print(message)
+# for message in messages:
+#     print(message)
 
 
-# learn about hash in set
-# set mathematical operations
+# checking membership(using in )(return true or false)
+
+numbers = {10, 20, 30, 40, 50}
+
+print(-20 in numbers)
